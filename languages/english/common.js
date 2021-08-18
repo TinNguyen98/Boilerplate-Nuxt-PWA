@@ -1,0 +1,23 @@
+export default {
+  login: 'Login',
+  logout: 'Logout',
+  password: 'Password',
+  remember_account: 'Remember me',
+  login_fail: 'Something wrong!!! Let check again',
+  logout_success: 'Logout success',
+  greeting: 'Welcome to my demo project',
+  sub_greeting: 'Be my guest',
+  open_modal: 'Open modal',
+  title_modal: `Wat'up bro!!!`,
+  question: 'Number question ',
+  dummy_answer: 'Bla bla bla bla bla bla',
+  tracking_access: 'Tracking access',
+  article_title: 'Article Title',
+  article_list: 'Article List',
+  header: `Here's the header`,
+  footer: `Here's the footer`,
+  title_403: 'Sorry, you are not authorized to access this page.',
+  title_404: 'Sorry, the page you visited does not exist.',
+  back_home: 'Go back home page',
+  refresh: 'Refresh'
+}

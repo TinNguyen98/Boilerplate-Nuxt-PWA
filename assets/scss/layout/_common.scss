@@ -1,0 +1,107 @@
+body {
+  color: #2a2a2a;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  @media #{$info-ipad} {
+    font-size: 14px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  height: 40px;
+  border-radius: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: bottom;
+}
+
+/* --- Customize layout print for article --- */
+@media print {
+  header, footer, .print, nav[aria-label=breadcrumb] {
+    display: none;
+  }
+
+  article {
+    text-align: center;
+    h4 {
+      font-size: 35px;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+/* --- Customize layout print for article - End --- */
+
+/* --- Loading style --- */
+.div-loading {
+  position: relative;
+  color: transparent !important;
+  text-shadow: none !important;
+  pointer-events: none;
+  width: 100%;
+  min-height: 300px;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    vertical-align: text-bottom;
+    border: 1px solid;
+    border-right-color: transparent;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    width: 2.2rem;
+    height: 2.2rem;
+    left: calc(50% - .5rem);
+    top: calc(50% - .5rem);
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+  }
+}
+/* --- Loading style - End --- */

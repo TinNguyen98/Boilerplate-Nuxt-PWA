@@ -1,0 +1,23 @@
+export default {
+  login: 'Đăng Nhập',
+  logout: 'Đăng Xuất',
+  password: 'Mật khẩu',
+  remember_account: 'Nhớ tài khoản',
+  login_fail: 'Đăng nhập khum dc!!! Lêu Lêu',
+  logout_success: 'Đăng xuất thành công gồi đó. Đi đâu đi đi',
+  greeting: 'Chào mừng tới dự án thử nghiệm của tâu',
+  sub_greeting: 'Tháo giày ra anh bạn à',
+  open_modal: 'Mở modal',
+  title_modal: 'Sao nhóc!!!',
+  question: 'Câu hỏi số ',
+  dummy_answer: 'Vân vân vân vân vân vân',
+  tracking_access: 'Theo dõi lượt truy cập',
+  article_title: 'Tiêu đề bài viết',
+  article_list: 'Danh sách bài viết',
+  header: `Đây là đầu trang`,
+  footer: `Đây là chân trang`,
+  title_403: 'Bạn không có quyền vào trang này ._.',
+  title_404: 'Trang này ko tồn tại bạn à!! Quậy khum ._.',
+  back_home: 'Về lại trang chủ',
+  refresh: 'Làm mới'
+}
